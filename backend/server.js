@@ -12,6 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+app.get('/', (req, res) => res.send('Backend is running!'));
 app.use('/api', apiRoutes);
 
 // Database connection and server start
