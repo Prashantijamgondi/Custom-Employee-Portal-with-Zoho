@@ -1,5 +1,5 @@
 const { sequelize, User, Role, Permission } = require('../src/models');
-const bcrypt = require('bcrypt'); // Actually, let's use a simpler hashing for demo or just install bcrypt
+
 
 async function seed() {
   try {
